@@ -1,3 +1,5 @@
+<!-- ### [Connect with me 💬]  -->
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=rabbanimdrb.My-Journey-of-learning-JAVA)
 # My-Journey-of-learning-JAVA
 This repo will contain all the resources, notes &amp; codes of JAVA Language
 
