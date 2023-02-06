@@ -14,11 +14,11 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 **[Collection Frameworks](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html)**
 
 **List**
-List interface implements collection interface 
-List is an ordered collection it maintains the insertion order, which means upon displaying the list content it will display the elements in the same order in which  they got inserted into the list
-Java List provides control over the position where you can insert an element
-YOu can access elements by their index and also search elements in the list.
-List allows you to add duplicate elements.
-List allows you to have ‘null’ elements
-List indexes start from 0, just like arrays.
-Some of the most used List implementation classes are ArrayList, LInkedList, Vector,Stack, CopyOnWriteArrayList.
+<li>List interface implements collection interface </li>
+<li>List is an ordered collection it maintains the insertion order, which means upon displaying the list content it will display the elements in the same order in which  they got inserted into the list</li>
+<li>Java List provides control over the position where you can insert an element</li>
+<li>You can access elements by their index and also search elements in the list.</li>
+<li>List allows you to add duplicate elements.</li>
+<li>List allows you to have ‘null’ elements</li>
+<li>List indexes start from 0, just like arrays.</li>
+<li>Some of the most used List implementation classes are ArrayList, LInkedList, Vector,Stack, CopyOnWriteArrayList.</li>
