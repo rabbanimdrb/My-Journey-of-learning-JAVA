@@ -40,7 +40,7 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 |Class |	Description |
 |-------| ------------|
-|HashMap |	|HashMapis the implementation of Map, but it doesn't maintain any order.| 
+|HashMap 	| HashMapis the implementation of Map, but it doesn't maintain any order.| 
 | LinkedHashMap |	LinkedHashMap is the implementation of Map. It inherits HashMap class. It maintains insertion order. |
 | TreeMap |	TreeMap is the implementation of Map and SortedMap. It maintains ascending order. |
 
