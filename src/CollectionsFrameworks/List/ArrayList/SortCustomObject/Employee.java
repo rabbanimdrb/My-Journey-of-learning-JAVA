@@ -1,4 +1,4 @@
-package CollectionsFrameworks.List.ArrayList;
+package CollectionsFrameworks.List.ArrayList.SortCustomObject;
 
 public class Employee {
     private int id;

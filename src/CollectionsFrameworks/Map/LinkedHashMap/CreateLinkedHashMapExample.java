@@ -1,13 +1,13 @@
-package CollectionsFrameworks.Map;
+package CollectionsFrameworks.Map.LinkedHashMap;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class CreateHashMapExample {
+public class CreateLinkedHashMapExample {
     public static void main(String[] args) {
 
 //        Example to map numbers to string
-        Map<String, Integer> numberMapping = new HashMap<>();
+        Map<String, Integer> numberMapping = new LinkedHashMap<>();
 
 //        Add key-value to map
         numberMapping.put("One", 1);

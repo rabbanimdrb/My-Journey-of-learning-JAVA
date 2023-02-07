@@ -1,4 +1,4 @@
-package CollectionsFrameworks.Map;
+package CollectionsFrameworks.Map.LinkedHashMap;
 
 public class Student {
     private String fName;

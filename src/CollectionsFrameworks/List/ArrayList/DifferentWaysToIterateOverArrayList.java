@@ -33,7 +33,6 @@ public class DifferentWaysToIterateOverArrayList {
             System.out.println(course);
         }
 
-
 //          :: After JAVA 8
 //        Using ForEach + Lambda Expression
         courses.forEach(course -> System.out.println(course));

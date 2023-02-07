@@ -18,9 +18,9 @@ public class AccessElementsFromArrayList {
         // Check the size of the ArrayList 
         System.out.println(topProgrammingLanguages.size());
 
-        // Retrive the element at a given index
-        String bestProgramminLanguage = topProgrammingLanguages.get(0);
-        System.out.println(bestProgramminLanguage);
+        // Retrieve the element at a given index
+        String bestProgrammingLanguage = topProgrammingLanguages.get(0);
+        System.out.println(bestProgrammingLanguage);
 
         // Modify the element at a given index 
         topProgrammingLanguages.set(1, "Go Lang");
