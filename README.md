@@ -22,3 +22,35 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 <li>List allows you to have ‘null’ elements</li>
 <li>List indexes start from 0, just like arrays.</li>
 <li>Some of the most used List implementation classes are ArrayList, LInkedList, Vector,Stack, CopyOnWriteArrayList.</li>
+
+<br>
+
+| ArrayList | 	LinkedList |
+| ----------- | ----------- |
+| ArrayList internally uses a dynamic array to store the elements.	| LinkedList internally uses a doubly linked list to store the elements. |
+| Manipulation with ArrayList is slow because it internally uses an array. If any element is removed from the array, all the other elements are shifted in memory.	| Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list, so no bit shifting is required in memory.|
+| An ArrayList class can act as a list only because it implements List only.	| LinkedList class can act as a list and queue both because it implements List and Deque interfaces. |
+| ArrayList is better for storing and accessing data.	 | LinkedList is better for manipulating data. |
+| The memory location for the elements of an ArrayList is contiguous. |	The location for the elements of a linked list is not contagious. |
+| Generally, when an ArrayList is initialized, a default capacity of 10 is assigned to the ArrayList. |	There is no case of default capacity in a LinkedList. In LinkedList, an empty list is created when a LinkedList is initialized. |
+| To be precise, an ArrayList is a resizable array. |	LinkedList implements the doubly linked list of the list interface. |
+
+<br>
+
+
+|Class |	Description |
+|-------| ------------|
+|HashMap |	|HashMapis the implementation of Map, but it doesn't maintain any order.| 
+| LinkedHashMap |	LinkedHashMap is the implementation of Map. It inherits HashMap class. It maintains insertion order. |
+| TreeMap |	TreeMap is the implementation of Map and SortedMap. It maintains ascending order. |
+
+
+<br>
+
+**List vs Map**
+| List                                              | Map         |
+| ----------- | ----------------- |
+| Allow duplicate elements.     | Does not allow duplicate key but values can be duplicate.       |
+| Allow multiple null values.  | Allow single null as key and multiple null as values.        |
+|Maintains insertions order.| Like Set, Map also represents an unordered collection. Again same like Set, some of its implementation classes maintains some order. TreeMap maintains ascending order of keys.  |
+
