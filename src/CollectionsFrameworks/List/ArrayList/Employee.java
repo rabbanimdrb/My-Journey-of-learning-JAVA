@@ -1,4 +1,4 @@
-package CollectionsFrameworks.List;
+package CollectionsFrameworks.List.ArrayList;
 
 public class Employee {
     private int id;
