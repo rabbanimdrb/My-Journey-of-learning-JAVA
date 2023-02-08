@@ -30,5 +30,6 @@ public class CreateLinkedHashMapExample {
         System.out.println(numberMapping.remove("One"));    //          remove(key)
 
         numberMapping.forEach((x,y) -> System.out.println(x + " " +  y));
+        numberMapping.values();
     }
 }

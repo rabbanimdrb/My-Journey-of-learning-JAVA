@@ -54,3 +54,28 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 | Allow multiple null values.  | Allow single null as key and multiple null as values.        |
 |Maintains insertions order.| Like Set, Map also represents an unordered collection. Again same like Set, some of its implementation classes maintains some order. TreeMap maintains ascending order of keys.  |
 
+
+**HashMap**
+<br>
+* HashMap has complexity of O(1) for insertion and lookup.
+
+* HashMap allows one null key and multiple null values.
+
+* HashMap does not maintain any order.
+
+**TreeMap**
+<br>
+* TreeMap has complexity of O(logN) for insertion and lookup.
+
+* TreeMap does not allow null key but allow multiple null values.
+
+* TreeMap maintains order. It stores keys in sorted and ascending order.
+
+**LinkedHashMap**
+<br>
+* LinkedHashMap has complexity of O(1) for insertion and lookup.
+
+* LinkedHashMap allows one null key and multiple null values.
+
+* LinkedHashMap maintains order in which key-value pairs are inserted.
+

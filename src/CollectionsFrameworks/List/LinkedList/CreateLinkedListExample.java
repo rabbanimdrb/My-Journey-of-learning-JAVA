@@ -38,5 +38,10 @@ public class CreateLinkedListExample {
         System.out.println(fruits);
         System.out.println("fruits.indexOf \"Avocado\": " + fruits.indexOf("Avocado"));
         System.out.println("fruits.lastIndexOf \"Guava\": " + fruits.lastIndexOf("Guava"));
+
+        fruits.forEach(n -> System.out.println(n));
+
+        fruits.stream().forEach(n -> System.out.println(n));
+
     }
 }
