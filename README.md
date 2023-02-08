@@ -63,6 +63,14 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 * HashMap does not maintain any order.
 
+**LinkedHashMap**
+<br>
+* LinkedHashMap has complexity of O(1) for insertion and lookup.
+
+* LinkedHashMap allows one null key and multiple null values.
+
+* LinkedHashMap maintains order in which key-value pairs are inserted.
+
 **TreeMap**
 <br>
 * TreeMap has complexity of O(logN) for insertion and lookup.
@@ -71,11 +79,5 @@ Object-Oriented Programming is a methodology or paradigm to design a program usi
 
 * TreeMap maintains order. It stores keys in sorted and ascending order.
 
-**LinkedHashMap**
-<br>
-* LinkedHashMap has complexity of O(1) for insertion and lookup.
 
-* LinkedHashMap allows one null key and multiple null values.
-
-* LinkedHashMap maintains order in which key-value pairs are inserted.
 
