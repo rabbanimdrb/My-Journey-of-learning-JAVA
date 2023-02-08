@@ -9,12 +9,12 @@ public class CreateLinkedHashMapExample {
 //        Example to map numbers to string
         Map<String, Integer> numberMapping = new LinkedHashMap<>();
 
-//        Add key-value to map
-        numberMapping.put("One", 1);
-        numberMapping.put("Two", 2);
+//        LinkedHashMap maintains the order of insertion
         numberMapping.put("Three",3);
         numberMapping.put("Four",4);
         numberMapping.put("Five",5);
+        numberMapping.put("One", 1);
+        numberMapping.put("Two", 2);
 
         numberMapping.put(null, 6);
         numberMapping.put(null,7);

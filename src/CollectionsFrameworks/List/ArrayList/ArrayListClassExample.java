@@ -16,6 +16,5 @@ public class ArrayListClassExample {
 
         System.out.println(fruits);
 
-
     }
 }

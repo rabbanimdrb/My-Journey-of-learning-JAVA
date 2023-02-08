@@ -9,7 +9,7 @@ public class CreateHashMapExample {
 //        Example to map numbers to string
         Map<String, Integer> numberMapping = new HashMap<>();
 
-//        Add key-value to map
+//        HashMap doesn't maintain the order of insertion it prints in random order
         numberMapping.put("One", 1);
         numberMapping.put("Two", 2);
         numberMapping.put("Three",3);
